@@ -65,8 +65,6 @@ public class TesteDijkstra {
         System.out.println("=== TESTE: DIJKSTRA (Matriz de Adjacência) ===");
         System.out.println("Tamanho do Grafo      : " + (linhas * colunas) + " vértices (" + linhas + "x" + colunas + ")");
         System.out.println("Custo do Caminho      : " + custoCaminho);
-        System.out.println("Vértices Expandidos   : " + grafo.getVerticeExpandidos());
-        System.out.println("Total de Comparações  : " + grafo.getOperacaoComparacao());
         System.out.printf("Tempo Médio (100x)    : %.4f ms (%.0f ns)\n", tempoMedioMs, (tempoTotalNano / (double) repeticoes));
     }
 }
